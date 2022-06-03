@@ -3,7 +3,7 @@ micronaut:
     name: bugReport1
 datasources:
   default:
-    url: jdbc:h2:mem:devDb;INIT=runscript from './src/main/resources/schema.sql'
+    url: jdbc:h2:mem:br1
     driverClassName: org.h2.Driver
     username: sa
     password: ''
